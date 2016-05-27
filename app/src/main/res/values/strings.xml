@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">MoviesEngine</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">Sort By</string>
+
+    <string name="pref_sort_by_defaultvalue">averagevote</string>
+    <string name="pref_sort_by_key">sortby</string>
+    <string name="pref_sort_by_title" color="@color/primary_text">Sort By</string>
+    <string name="pref_sort_by_dialogue_title" color="@color/primary_text">Select Sort Criteria</string>
+    <string name="pref_sort_value_1">popularity</string>
+    <string name="pref_sort_value_2">averagevote</string>
+    <string name="pref_sort_value_3">votecount</string>
+    <!--<string name="pref_sort_value_4">releasedate</string>-->
+    <string-array name="pref_sort_by_entries">
+        <item color="@color/secondary_text">Popularity</item>
+        <item color="@color/secondary_text">Average vote</item>
+        <item color="@color/secondary_text">Vote count</item>
+       <!-- <item color="@color/secondary_text">Release Date</item>-->
+    </string-array>
+    <string-array name="pref_sort_by_entries_values">
+        <item>@string/pref_sort_value_1</item>
+        <item>@string/pref_sort_value_2</item>
+        <item>@string/pref_sort_value_3</item>
+       <!-- <item>@string/pref_sort_value_4</item>-->
+    </string-array>
+
+
+
+    <string name="pref_filter_by_defaultvalue">averagevote</string>
+    <string name="pref_filter_by_key">sortby</string>
+    <string name="pref_filter_by_title" color="@color/primary_text">Sort By</string>
+    <string name="pref_filter_by_dialogue_title" color="@color/primary_text">Select Sort Criteria</string>
+    <string name="pref_filter_value_1">popularity</string>
+    <string name="pref_filter_value_2">averagevote</string>
+    <string name="pref_filter_value_3">votecount</string>
+    <string-array name="pref_filter_by_entries">
+        <item color="@color/secondary_text">Popularity</item>
+        <item color="@color/secondary_text">Average vote</item>
+        <item color="@color/secondary_text">Vote count</item>
+    </string-array>
+    <string-array name="pref_filter_by_entries_values">
+        <item>@string/pref_sort_value_1</item>
+        <item>@string/pref_sort_value_2</item>
+        <item>@string/pref_sort_value_3</item>
+    </string-array>
+
+
+
+
+
+
+
+   
+</resources>

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation = "2dp"
+    app:cardCornerRadius="4dp"
+    android:layout_margin ="10dp"
+    app:cardUseCompatPadding="true"
+    >
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:padding="5dp">
+
+
+        <TextView
+            android:id="@+id/mName"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="TITLE"
+            android:textStyle="bold"
+            android:textColor="#D32F2F"/>
+        <TextView
+            android:id="@+id/movieName"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textColor="@color/primary_text"
+            android:layout_height="match_parent"
+            />
+
+
+    </TableRow>
+    <TableRow  android:padding="5dp">
+
+
+        <TextView
+            android:id="@+id/mReleasedate"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:layout_height="match_parent"
+            android:textColor="#D32F2F"
+            android:text="RELEASE DATE"/>
+        <TextView
+            android:id="@+id/movieReleasedate"
+            android:layout_width="0dp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:textColor="@color/primary_text"
+            android:layout_height="match_parent"
+            />
+
+
+    </TableRow>
+    <TableRow  android:padding="5dp">
+
+
+        <TextView
+            android:id="@+id/lRunTime"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:layout_height="match_parent"
+            android:textColor="#D32F2F"
+            android:text="RUN TIME"/>
+        <TextView
+            android:id="@+id/vRuntime"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textColor="@color/primary_text"
+            android:layout_height="match_parent"
+            />
+
+
+    </TableRow>
+    <TableRow  android:padding="5dp">
+
+
+        <TextView
+            android:id="@+id/lDirector"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:layout_height="match_parent"
+            android:textColor="#D32F2F"
+            android:text="DIRECTOR"/>
+        <TextView
+            android:id="@+id/vDirector"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textColor="@color/primary_text"
+            android:layout_height="match_parent"
+            />
+
+
+    </TableRow>
+    <TableRow  android:padding="5dp">
+
+
+        <TextView
+            android:id="@+id/mLang"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:layout_height="match_parent"
+            android:textColor="#D32F2F"
+            android:text="LANGUAGE"/>
+        <TextView
+            android:id="@+id/vLang"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textColor="@color/primary_text"
+            android:layout_height="match_parent"
+           />
+
+
+    </TableRow>
+    <TableRow  android:padding="5dp">
+
+
+        <TextView
+            android:id="@+id/lGenre"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:layout_height="match_parent"
+            android:textColor="#D32F2F"
+            android:text="GENRE"/>
+        <TextView
+            android:id="@+id/vGenre"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textColor="@color/primary_text"
+            android:layout_height="match_parent"
+            />
+
+
+    </TableRow>
+    <TableRow  android:padding="5dp">
+
+
+        <TextView
+            android:id="@+id/lCast"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:layout_height="match_parent"
+            android:textColor="#D32F2F"
+            android:text="CAST"/>
+        <TextView
+            android:id="@+id/vCast"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textColor="@color/primary_text"
+            android:layout_height="match_parent"
+           />
+
+
+    </TableRow>
+    <TableRow  android:padding="5dp">
+
+
+        <TextView
+            android:id="@+id/mAvgvote"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:layout_height="match_parent"
+            android:textColor="#D32F2F"
+            android:text="AVERAGE VOTE"/>
+        <TextView
+            android:id="@+id/vAvgvote"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textColor="@color/primary_text"
+            android:layout_height="match_parent"
+            />
+
+
+    </TableRow>
+
+    <TableRow  android:padding="5dp">
+
+
+        <TextView
+            android:id="@+id/lOverview"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:layout_height="match_parent"
+            android:textColor="#D32F2F"
+            android:text="SYNOPSIS"/>
+
+
+    </TableRow>
+    <TableRow  android:padding="5dp">
+
+
+        <TextView
+            android:id="@+id/vOverview"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:layout_height="match_parent"
+            android:textColor="@color/primary_text"
+            />
+
+
+    </TableRow>
+
+</TableLayout>
+
+</android.support.v7.widget.CardView>
